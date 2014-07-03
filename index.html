@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.inline-svg-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.inline-png-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.2.css">
+    <link rel="stylesheet" href="css/jquery.mobile.external-png-1.4.2.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/jquery.mobile-1.4.2.js"></script>
+    <script src="js/strophe.js"></script>
+    <script src="js/index.js"></script>
+    <title>OfTalk</title>
+</head>
+<body>
+<div data-role="page" id="page_main" style="margin-top: 20px">
+    <div data-role="header">
+        <h1>OFTalk</h1>
+    </div>
+    <div data-role="content">
+        <div id="chat_area"></div>
+        <textarea id="chat_input"></textarea>
+        <a href="#" id="chat_send_btn" data-role="button" data-inline="true" onclick="btn_chat_send();">傳送</a>
+        <div id="message"></div>
+    </div>
+</div>
+</body>
+</html>
